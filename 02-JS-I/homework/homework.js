@@ -30,32 +30,37 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str ;
+  var str;
+  return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x + y;
+  var suma = x + y;
+  return suma;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return x - y;
+  var resta = x - y; 
+  return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x * y;
+  var multiplicacion = x * y;
+  return multiplicacion;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y;
+  var divicion = x / y;
+  return divicion;  
 }
 
 function sonIguales(x, y) {
@@ -64,8 +69,10 @@ function sonIguales(x, y) {
   // Tu código:
     if (x==y) {
       return true;
+    } else { 
+      return false; 
     }
-    return false; 
+    
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -74,8 +81,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.length == str2.length) {
     return true
-  } else false 
-  {
+  } else {
     return false
   }
 }
@@ -86,8 +92,9 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90) {
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -96,8 +103,9 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num > 50) {
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function obtenerResto(x, y) {
@@ -181,10 +189,10 @@ function esPositivo(numero) {
   if (numero > 0) {
     return positivo;
   } else if (numero < 0) {
-    return negativo }
-    {
+    return negativo 
+  } else {
     return false 
-    }
+  }
    
 }
 
