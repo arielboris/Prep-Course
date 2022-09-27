@@ -3,7 +3,7 @@
 const { addLeadingDotSlash } = require("@11ty/eleventy/src/TemplatePath");
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Ariel xd11";
+const nuevaString = "Ariel xd11w";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 54;
